@@ -29,6 +29,7 @@ dbc_faker.name
 
 dbc_faker.name 5
 => ["John P Quigley", "Zachary Buettner", "James Newman", "Renee Schaaf", "Darren Dahl"]
+```
 
 ## Contributing
 
