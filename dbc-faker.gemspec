@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'dbc/faker/version'
+require 'dbc-faker/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dbc-faker"
-  spec.version       = Dbc::Faker::VERSION
+  spec.version       = DbcFaker::VERSION
   spec.authors       = ["Sam Samskies"]
   spec.email         = ["samprofessional@gmail.com"]
   spec.description   = %q{DBC ipsum}

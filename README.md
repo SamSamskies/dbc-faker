@@ -1,6 +1,6 @@
 # Dbc::Faker
 
-TODO: Write a gem description
+Ipsum gem for DBC familia. You need a DBC API key in order to use this gem. http://developer.devbootcamp.com/
 
 ## Installation
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Set your DBC_API environment variable to your api key, or use the gem to configure your key:
+```ruby
+dbc_faker = DbcFaker::Client.new YOUR_API_KEY_HERE_IF_NO_ENV_VAR_SET
+```
+
+```ruby
+dbc_faker.name
+=> 'J-kai Hsu'
+
+dbc_faker.name 5
+=>
 
 ## Contributing
 

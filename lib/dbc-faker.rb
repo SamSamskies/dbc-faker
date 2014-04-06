@@ -1,6 +1,6 @@
-require 'dbc/faker/version'
+require 'dbc-faker/version'
 require 'dbc-ruby'
-require_relative '../modules/name'
+require_relative 'modules/name'
 
 module DbcFaker
 
