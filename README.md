@@ -1,4 +1,4 @@
-# Dbc::Faker
+# DbcFaker v. 0.0.1
 
 Ipsum gem for DBC familia. You need a DBC API key in order to use this gem. http://developer.devbootcamp.com/
 
