@@ -25,7 +25,7 @@ dbc_faker = DbcFaker::Client.new YOUR_API_KEY_HERE_IF_NO_ENV_VAR_SET
 
 ```ruby
 dbc_faker.name
-=> 'J-kai Hsu'
+=> "J-kai Hsu"
 
 dbc_faker.name 5
 => ["John P Quigley", "Zachary Buettner", "James Newman", "Renee Schaaf", "Darren Dahl"]
