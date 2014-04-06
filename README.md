@@ -28,7 +28,7 @@ dbc_faker.name
 => 'J-kai Hsu'
 
 dbc_faker.name 5
-=>
+=> ["John P Quigley", "Zachary Buettner", "James Newman", "Renee Schaaf", "Darren Dahl"]
 
 ## Contributing
 
