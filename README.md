@@ -23,6 +23,8 @@ Set your DBC_API environment variable to your api key, or use the gem to configu
 dbc_faker = DbcFaker::Client.new YOUR_API_KEY_HERE_IF_NO_ENV_VAR_SET
 ```
 
+By default you get one name if you call the name method on your client. If you want more names, pass in a number of names you want to the name method.
+
 ```ruby
 dbc_faker.name
 => "J-kai Hsu"
